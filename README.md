@@ -1,6 +1,6 @@
 # Bang-bang
 
-> Returns a string with an exclamation point
+> Returns a string with an exclamation point at the end
 
 __Important note: this module is not released yet. You can only run it
 locally for development purpose.__
