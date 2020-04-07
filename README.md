@@ -2,6 +2,9 @@
 
 > Returns a string with an exclamation point
 
+__Important note: this module is not released yet. You can only run it
+locally for development purpose.__
+
 ## Requirements
 
 - Node.js
@@ -10,7 +13,7 @@
 
 This project is for an educationnal purpose and meant to provide a small piece of code that can be enhanced easily.
 
-## Code exemple
+## Code example
 
 ```js
 const bangbang = require('bang-bang')
@@ -18,10 +21,17 @@ const bangbang = require('bang-bang')
 bangbang('Hello World') // => "Hello World!"
 ```
 
-## Install
+## Run the module locally for development
 
-__Important note: this module is not released yet. You have to install it
-locally for the moment.__
+Clone the repository:
+```
+git clone git@github.com:Ynote/bang-bang.git
+```
+
+Run the tests:
+```
+npm test
+```
 
 ## Contributing
 
