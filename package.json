@@ -1,0 +1,23 @@
+{
+  "name": "bang-bang",
+  "version": "1.0.0",
+  "description": "This JavaScript library adds an exclamation point at the end of a sentence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ynote/bang-bang.git"
+  },
+  "author": "Ynote_hk <fanny@ynote.hk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ynote/bang-bang/issues"
+  },
+  "homepage": "https://github.com/Ynote/bang-bang#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^7.1.1"
+  }
+}
