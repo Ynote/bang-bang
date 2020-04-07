@@ -1,7 +1,8 @@
 const bangbang = (sentence, options = {}) => {
-  const { character = '!'} = options
+  const { character = '!', times = 1 } = options
+  const a = Array(times).fill(character).join('')
 
-  return `${sentence}${character}`
+  return `${sentence}${a}`
 }
 
 
