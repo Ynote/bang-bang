@@ -6,4 +6,5 @@ describe('bang-bang', () => {
   it('returns "Hello world!"', () => {
     expect(bangbang('Hello world')).to.be('Hello world!')
   })
+
 })
